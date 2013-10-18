@@ -1,0 +1,44 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+zone "cn." {
+	type forward;
+	forwarders { 202.38.64.1; 202.38.64.7; 202.38.64.17; 202.38.64.56; };
+};
+zone "google.com." {
+	type forward;
+	forwarders { 127.0.0.1 port 5353; };
+};
+zone "google.com.hk." {
+	type forward;
+	forwarders { 127.0.0.1 port 5353; };
+};
+zone "googleapis.com." {
+	type forward;
+	forwarders { 127.0.0.1 port 5353; };
+};
+zone "googleusercontent.com." {
+	type forward;
+	forwarders { 127.0.0.1 port 5353; };
+};
+zone "ad.doubleclick.net." {
+	type master;
+	file "/etc/bind/db.local";
+};
+zone "g.doubleclick.net." {
+	type master;
+	file "/etc/bind/db.local";
+};
+zone "googlesyndication.com." {
+	type master;
+	file "/etc/bind/db.local";
+};
+zone "lug." {
+	type master;
+	file "/etc/bind/db.lug";
+};

@@ -1,0 +1,30 @@
+$TTL	600
+$ORIGIN	lug.
+@	IN	SOA	lug.ustc.edu.cn. lug.ustc.edu.cn. (
+			      2		; Serial
+			    600		; Refresh
+			  86400		; Retry
+			   3600		; Expire
+			    300 )	; Negative Cache TTL
+;
+@	IN	NS	lug.ustc.edu.cn.
+blog	IN	CNAME	blog.ustc.edu.cn.
+lug	IN	CNAME	ftp.lug.ustc.edu.cn.
+mirrors	IN	CNAME	mirrors.ustc.edu.cn.
+gitlab	IN	CNAME	gitlab.lug.ustc.edu.cn.
+ldap	IN	CNAME	ldap.lug.ustc.edu.cn.
+pxe	IN	CNAME	pxe.ustc.edu.cn.
+freeshell	IN	CNAME	freeshell.ustc.edu.cn.
+freeshell-1	IN	CNAME	s1.freeshell.ustc.edu.cn.
+freeshell-2	IN	CNAME	s2.freeshell.ustc.edu.cn.
+freeshell-3	IN	CNAME	s3.freeshell.ustc.edu.cn.
+freeshell-4	IN	CNAME	s4.freeshell.ustc.edu.cn.
+freeshell-5	IN	CNAME	s5.freeshell.ustc.edu.cn.
+freeshell-6	IN	CNAME	s6.freeshell.ustc.edu.cn.
+freeshell-7	IN	CNAME	s7.freeshell.ustc.edu.cn.
+
+bbs	IN	CNAME	bbs.ustc.edu.cn.
+wlt	IN	CNAME	wlt.ustc.edu.cn.
+gewu	IN	A	202.38.70.173
+huodong	IN	A	202.38.70.159
+scgy	IN	A	202.38.70.7

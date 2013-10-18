@@ -1,0 +1,4 @@
+$TTL	600
+
+@	IN	CNAME	google.cn
+www	IN	CNAME	google.cn
