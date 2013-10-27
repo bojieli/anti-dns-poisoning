@@ -22,6 +22,10 @@ zone "baidu.com." {
 	type forward;
 	forwarders { 202.38.64.1; 202.38.64.7; 202.38.64.17; 202.38.64.56; };
 };
+zone "bdstatic.com." { // Baidu CDN
+	type forward;
+	forwarders { 202.38.64.1; 202.38.64.7; 202.38.64.17; 202.38.64.56; };
+};
 zone "qq.com." {
 	type forward;
 	forwarders { 202.38.64.1; 202.38.64.7; 202.38.64.17; 202.38.64.56; };
