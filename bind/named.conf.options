@@ -15,8 +15,6 @@ options {
 		10.9.0.1;  // azure
 		10.10.0.1; // azure1
 		10.12.0.1; // digitalocean
-		202.38.64.1;  // default
-		202.38.64.17; // default
 	};
 
 	allow-query { any; };
