@@ -6,6 +6,10 @@
 // organization
 include "/etc/bind/zones.rfc1918";
 
+zone "root-servers.net." {
+	type forward;
+	forwarders { 202.38.64.1; 202.38.64.7; 202.38.64.17; 202.38.64.56; };
+};
 zone "cn." {
 	type forward;
 	forwarders { 202.38.64.1; 202.38.64.7; 202.38.64.17; 202.38.64.56; };
