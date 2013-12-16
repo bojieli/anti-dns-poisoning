@@ -12,8 +12,6 @@ options {
 
 	forwarders {
 		10.11.0.1; // azure2
-		10.10.0.1; // azure1
-		10.12.0.1; // digitalocean
 	};
 
 	allow-query { any; };
