@@ -42,6 +42,10 @@ zone "gccdn.net." { // Tencent CDN
 	type forward;
 	forwarders { 202.38.64.1; 202.38.64.7; 202.38.64.17; 202.38.64.56; };
 };
+zone "rrfmn.com." { // renren photo
+	type forward;
+	forwarders { 202.38.64.1; 202.38.64.7; 202.38.64.17; 202.38.64.56; };
+};
 zone "google.com." {
 	type forward;
 	forwarders { 127.0.0.1 port 5353; };
