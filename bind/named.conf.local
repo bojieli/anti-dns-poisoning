@@ -90,3 +90,7 @@ zone "boj.cloudapp.net." {
 	type forward;
 	forwarders { 202.38.64.1; 202.38.64.7; 202.38.64.17; 202.38.64.56; };
 };
+zone "mobiusltd.com." {
+	type forward;
+	forwarders { 202.38.64.1; 202.38.64.7; 202.38.64.17; 202.38.64.56; };
+};
