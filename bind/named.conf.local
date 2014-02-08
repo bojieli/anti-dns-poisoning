@@ -18,6 +18,10 @@ zone "gtld-servers.net." {
 	type forward;
 	forwarders { 202.38.64.1; 202.38.64.7; 202.38.64.17; 202.38.64.56; };
 };
+zone "org.afilias-nst.info." {
+	type forward;
+	forwarders { 202.38.64.1; 202.38.64.7; 202.38.64.17; 202.38.64.56; };
+};
 zone "blog.ustc.edu.cn." { // use authoritative name server
 	type forward;
 	forwarders { 202.141.160.97; 202.38.95.110; };
