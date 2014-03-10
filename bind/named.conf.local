@@ -30,6 +30,10 @@ zone "freeshell.ustc.edu.cn." { // use authoritative name server
 	type forward;
 	forwarders { 202.141.160.97; 202.38.95.110; };
 };
+zone "dnamer.net." {
+	type forward;
+	forwarders { 202.141.160.97; };
+};
 zone "cn." {
 	type forward;
 	forwarders { 202.38.64.1; 202.38.64.7; 202.38.64.17; 202.38.64.56; };
