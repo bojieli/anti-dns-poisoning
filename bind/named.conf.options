@@ -17,10 +17,21 @@ options {
 	allow-query { any; };
 	allow-recursion { any; };
 	max-cache-size 512m;
-	max-cache-ttl 600;
-	max-ncache-ttl 30;
+	max-ncache-ttl 600;
 
 	auth-nxdomain no;    # conform to RFC1035
 	listen-on-v6 { any; };
 };
 
+logging {
+	channel filelog {
+		file "/var/log/named/named.log" versions 10 size 5m;
+		severity warning;
+		print-time yes;
+		print-severity yes;
+		print-category yes;
+	};
+	category default{
+		filelog;
+	};
+};
