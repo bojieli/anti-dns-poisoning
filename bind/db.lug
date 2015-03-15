@@ -14,6 +14,7 @@ mirrors	IN	CNAME	mirrors.ustc.edu.cn.
 gitlab	IN	CNAME	gitlab.lug.ustc.edu.cn.
 ldap	IN	CNAME	ldap.lug.ustc.edu.cn.
 pxe	IN	CNAME	pxe.ustc.edu.cn.
+dns	IN	CNAME	dns.lug.ustc.edu.cn.
 freeshell	IN	CNAME	freeshell.ustc.edu.cn.
 freeshell-1	IN	CNAME	s1.freeshell.ustc.edu.cn.
 freeshell-2	IN	CNAME	s2.freeshell.ustc.edu.cn.
