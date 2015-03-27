@@ -103,6 +103,7 @@ zone "akamaitechnologies.com." { type forward; forwarders { 202.102.199.68; 223.
 zone "akamaitechnologies.fr." { type forward; forwarders { 202.102.199.68; 223.5.5.5; }; };
 
 zone "tlgslb.com." { type forward; forwarders { 202.102.199.68; 223.5.5.5; }; };
+zone "yunjiasu-cdn.net." { type forward; forwarders { 202.102.199.68; 223.5.5.5; }; };
 
 zone "000dn.com." { type forward; forwarders { 202.102.199.68; 223.5.5.5; }; };
 zone "07073.com." { type forward; forwarders { 202.102.199.68; 223.5.5.5; }; };
