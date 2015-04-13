@@ -86,10 +86,11 @@ zone "googlesyndication.com." { type forward; forwarders { 202.102.199.68; 223.5
 zone "adwords.google.com." { type forward; forwarders { 202.102.199.68; 223.5.5.5; }; };
 zone "googleadservices.com." { type forward; forwarders { 202.102.199.68; 223.5.5.5; }; };
 
-zone "googleapis.com." { type forward; forwarders { 202.102.199.68; 223.5.5.5; }; };
+#zone "googleapis.com." { type forward; forwarders { 202.102.199.68; 223.5.5.5; }; };
 zone "themes.googleusercontent.com." { type forward; forwarders { 202.102.199.68; 223.5.5.5; }; };
 zone "gstatic.com." { type forward; forwarders { 202.102.199.68; 223.5.5.5; }; };
 zone "googleadapis.l.google.com." { type forward; forwarders { 202.102.199.68; 223.5.5.5; }; };
+zone "gstaticadssl.l.google.com." { type forward; forwarders { 202.102.199.68; 223.5.5.5; }; };
 
 # akamai
 zone "akadns.net." { type forward; forwarders { 202.102.199.68; 223.5.5.5; }; };
