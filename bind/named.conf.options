@@ -16,7 +16,7 @@ options {
 
 	allow-query { any; };
 	allow-recursion { any; };
-	max-cache-size 512m;
+	max-cache-size 256m;
 	max-ncache-ttl 600;
 
 	auth-nxdomain no;    # conform to RFC1035
